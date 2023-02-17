@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container--black {
+    background: #1f2937;
+}
+
+.container--white {
+    background: #fff;
+}
+
+.container--gray {
+    background: #e5e7eb;
+}
+
+.container--large {
+    flex-basis: 525px;
+}
+
+.container--medium {
+    flex: 1;
+}
+
+.container--small {
+    flex-basis: 100px;
+}
+
+.wrapper {
+    /* width: 70%; */
+    width: 56%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top-group {
+    height: 100%;
+}
+
+.menu {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.menu__list {
+    display: flex;
+    gap: 30px;
+}
+
+.menu__item {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.details {
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.details__content {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.details__left {
+    width: 45%;
+}
+.details__right {
+    width: 55%;
+}
+
+.details__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details__register-btn {
+    align-self: flex-start;
+    padding: 10px 30px;
+    color: #fff;
+    background: #3b82f6;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.details__title {
+    font-size: 48px;
+    color: #f9f1f8;
+    font-weight: 900;
+}
+
+.details__description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.details__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6d747d;
+}
+
+.info {
+    /* flex: 2;  */
+}
+
+.quote {
+    /* flex: 2; */
+}
+
+.register {
+    /* flex: 2; */
+}
+
+.footer {
+    /* flex-basis: 100px; */
+}
